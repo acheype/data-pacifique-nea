@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Adrien Cheype">
+    <title>Portail de données au centre IRD de Nouméa</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/ac-template-v1.1.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+    <h1 style="font-size:3em">Portail de données</h1>
+    <h1>au centre IRD de Nouméa</h1><br>
+    <h2 style="text-align: right;">Adrien Cheype</h2>
+    <h5 style="text-align: right; color: #585858;">Equipe Informatique en Soutien à la Science,<br>
+    Institut de Recherche pour le Développement</p>
+</section>
+
+<section>
+    <section data-markdown>
+        <script type="text/template">
+            # Contexte
+        </script>
+    </section>
+
+    <section>
+        <div data-markdown>
+            <script type="text/template">
+                ## Contexte institutionnel
+
+                - réorganisation de l'institut, nouvel organigramme
+                    - D-DUNI (Direction de Développement des Nouveaux Usages Numériques)
+            </script>
+        </div>
+        <br>
+        <div class="flex-pad">
+            <div style="width: 35%;">
+                <img alt="rcps.png" src="images/rcps.png" style="margin:0">
+            </div>
+            <div style="width: 65%;">
+                <ul><li><p>projet de <strong>portail de données institutionnel</strong> : </p>
+                <p style="text-align:center"><strong>data.ird.fr</strong><br></p>
+                <p><small><em> « qui se placera dans la mouvance des portails Open Data qui valorisent les données publiques produites par différents acteurs » </em></small></p>
+                </li></ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2><small>Exemple de portails</small> <smaller>(1)</smaller></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://www.data.gouv.fr/fr/search/?q=cal%C3%A9donie"></iframe>
+        <h3>data.gouv.fr</h3>
+    </section>
+
+    <section>
+        <h2><small>Exemple de portails</small> <smaller>(2)</smaller></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://sextant.ifremer.fr/fr/geoportail/sextant#/search?fast=index&_content_type=json&from=1&to=20&sortBy=popularity&any=cal%C3%A9donie"></iframe>
+        <h3>Sextant (Ifremer)</h3>
+    </section>
+
+    <section>
+        <h2><small>Exemple de portails</small> <smaller>(3)</smaller></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://sextant.ifremer.fr/record/0d177ff9-d802-4d10-8a00-3a46e0ef0735/"></iframe>
+        <h3>Sextant, page d'atterissage</h3>
+    </section>
+
+    <section data-markdown>
+        <script type="text/template">
+            ## Portail institutionnel « data.ird.fr »
+
+            ![archi_generale_data.ird.fr.png](images/archi_generale_data.ird.fr.png)<br>
+            ➪ valoriser les données de référence de l'institut
+
+            - prévu pour ???
+                - projet de substitution à court-terme : Enregistrement de DOI
+        </script>
+    </section>
+
+</section>
+
+<section>
+    <section data-markdown>
+        <script type="text/template">
+            #  Portail de données
+            ## « data-pacifique.ird.nc »
+        </script>
+    </section>
+
+    <section>
+        <span data-markdown>
+            <script type="text/template">
+                ## Cycle de vie de la donnée
+
+                ![cycle_donnees_2_small.png](images/cycle_donnees_2_small.png)
+            </script>
+        </span>
+        <span data-markdown class="fragment">
+            <script type="text/template">
+                 <small>➪ *enquête sur les besoins*<br>acquisition : **12%**, stockage/sécurisation : **56%**, structuration/nettoyage : **69%**, valorisation : **37%**</small>
+            </script>
+        </span>
+    </section>
+
+    <section data-markdown>
+        <script type="text/template">
+            ## Objectif du portail de données du centre de Nouméa
+
+            - aider les scientifiques à mieux gérer leurs données
+                - facilitateur/compétences techniques mises à disposition
+                - espace de stockage qui centralise les données du centre de Nouméa
+                - mise en place d'outils qui répondent à des besoins communs
+
+            - créer un espace de collaboration autour de la donnée
+                - groupe de travail « gestion de données » pour échanger autour des problématiques communes
+                - une meilleure connaissance des données existantes ➪ plus d'interractions entre les unités
+        </script>
+    </section>
+
+    <section data-markdown>
+        <script type="text/template">
+            ## Infrastructure mis en place
+            - un site web pour centraliser les informations
+
+            - des outils mutualisés
+                - choisis par le groupe de travail suivant les priorités
+                - outils qui s'inscrivent dans les habitudes des scientifiques
+                - infrastructure centrée sur la donnée, les outils sont flexibles
+        </script>
+    </section>
+
+    <section>
+        <h2><small>Site web du portail de données</small></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://data-pacifique.ird.nc"></iframe>
+        <h3>data-pacifique.ird.nc</h3>
+    </section>
+
+</section>
+
+<section>
+    <section data-markdown>
+        <script type="text/template">
+            # Exemples d'outils
+            # <small>pour « data-pacifique.ird.nc »</small>
+        </script>
+    </section>
+
+    <section>
+        <h3>QGIS Server/Lizmap <small>(1)</small></h3>
+
+        <img alt="exemple_qgis.png" src="images/exemple_qgis.png" height="550" style="margin:0">
+        <small><em>Conception de la carte sous QGIS</em></small>
+    </section>
+
+    <section>
+        <h3>QGIS Server/Lizmap <small>(2)</small></h3>
+
+        <img alt="exemple_qgis.png" src="images/exemple_qgis2.png" height="500" style="margin:0">
+        <small><em>Paramétrage de la carte avec le plugin Lizmap</em></small>
+    </section>
+
+    <section>
+        <h3>QGIS Server/Lizmap <small>(3)</small></h3>
+
+        <img alt="exemple_qgis.png" src="images/exemple_lizmap.png" height="500" style="margin:0">
+        <small><em>Partage en ligne avec l'application web Lizmap</em></small>
+    </section>
+
+    <section>
+        <h3>QGIS Server/Lizmap <small>(4)</small></h3>
+
+        <img alt="exemple_qgis.png" src="images/exemple_lizmap2.png" height="500" style="margin:0">
+        <small><em>Edition en ligne d'une couche géographique avec Lizmap</em></small>
+    </section>
+
+    <section>
+        <h3>ArcGIS Server/ArcGIS Online <small>(1)</small></h3>
+
+        <img alt="exemple_arcgis_1.png" src="images/exemple_arcgis_1.png" style="margin:0">
+        <small><em>Publication d'une carte sur ArcGIS Server</em></small>
+    </section>
+
+    <section>
+        <h3>ArcGIS Server/ArcGIS Online <small>(2)</small></h3>
+
+        <div class="flex-pad">
+            <div style="width: 50%;">
+                <img alt="exemple_arcgis_2.png" src="images/exemple_arcgis_2.png" style="margin:0">
+            </div>
+            <div style="width: 50%;">
+                <img alt="exemple_arcgis_3.png" src="images/exemple_arcgis_3.png" style="margin:0">
+            </div>
+        </div>
+        <small><em>Visualisation depuis ArcGIS Server ou <a src="arcgis.com">arcgis.com</a></em></small>
+    </section>
+
+    <section>
+        <h3>ArcGIS Server/ArcGIS Online <small>(3)</small></h3>
+
+        <img alt="exemple_arcgis_collector_2.png" src="images/exemple_arcgis_collector_2.png" style="margin:0">
+        <small><em>Collecte de données sur le terrain avec ArcGIS Collector</em></small>
+    </section>
+
+    <section>
+        <h3>ArcGIS Server/ArcGIS Online <small>(4)</small></h3>
+
+        <div class="flex-pad">
+            <div style="width: 50%;">
+                <img alt="exemple_arcgis_webapp_1.png" src="images/exemple_arcgis_webapp_1.png">
+            </div>
+            <div style="width: 50%;">
+                <img alt="exemple_arcgis_webapp_2.png" src="images/exemple_arcgis_webapp_2.png">
+            </div>
+        </div>
+        <small><em>Création d'applications web personnalisées avec WebAppBuilder</em></small>
+    </section>
+
+    <section>
+        <h2><small>Exemple de WebApp ArcGIS Online (DTSI)</small></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://dtsi-sgt.maps.arcgis.com/apps/webappviewer/index.html?id=2f3d50f97c9d4810bd98fb10e0c71fa0"></iframe>
+        <h3>projet MARACAS, suivi satellitaire de baleines</h3>
+    </section>
+
+    <section>
+        <h3>THREDDS/Godiva <small>(1)</small></h3>
+
+        <div class="flex-pad">
+            <div style="width: 50%;">
+                <img alt="exemple_thredds_1.png" src="images/exemple_thredds_1.png">
+            </div>
+            <div style="width: 50%;">
+                <img alt="exemple_thredds_2.png" src="images/exemple_thredds_2.png">
+            </div>
+        </div>
+        <small><em>Publication de données grillées avec THREDDS / Visualisation avec Godiva</em></small>
+    </section>
+
+    <section>
+        <h3>THREDDS/Godiva <small>(2)</small></h3>
+
+        <div class="flex-pad">
+            <div style="width: 50%;">
+                <img alt="exemple_thredds_3.png" src="images/exemple_thredds_3.png" style="margin:0">
+            </div>
+            <div style="width: 50%;">
+                <img alt="exemple_thredds_4.png" src="images/exemple_thredds_4.png" style="margin:0" height="400px">
+            </div>
+        </div>
+        <small><em>Représentation sous forme graphique des données grillées avec Godiva</em></small>
+    </section>
+
+    <section>
+        <h2><small>Portail Open Data</small></h2>
+        <iframe style="width: 1000px; height: 550px;" data-src="http://catalogue.beta.data.wa.gov.au/dataset?q=forest"></iframe>
+        <h3>Portail Open Data de l'Australie Occidentale</h3>
+    </section>
+
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+    // Display the page number of the current slide
+    slideNumber: true,
+    // Transition style
+    transition: 'concave', // none/fade/slide/convex/concave/zoom
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+        // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        // Interpret Markdown in <section> elements
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        // Syntax highlight for <code> elements
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        // Zoom in and out with Alt+click
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        // Speaker notes
+        { src: 'plugin/notes/notes.js', async: true }
+    ]
+});
+</script>
+</body>
+</html>

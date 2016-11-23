@@ -1,0 +1,56 @@
+baseurl = "http://data-pacifique.ird.nc/"
+languageCode = "fr-FR"
+title = "Portail de données - IRD Nouméa"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Adrien Cheype"
+	description = "Site web du portail de données \"Pacifique de l'IRD\" de Nouméa"
+	copyright = "IRD Nouméa &ndash; Licence <a href='https://www.gnu.org/licenses/agpl-3.0.fr.html'>GNU Affero v3</a>"
+	# Repository
+	provider = ""
+	repo_url = "http://www.ird.fr"
+
+	logo = "images/logo_IRD.png"
+	favicon = "favicon.ico"
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = ["css/custom.css"]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "white"
+
+    [params.font]
+    	text = "Lato"
+    	#text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+[social]
+	twitter = ""
+	#github  = "acheype"
+	email   = "adrien.cheype@ird.fr"
+
+#[[menu.main]]
+# 	name   = "LizMap"
+# 	url    = "/services/lizmap"
+# 	weight = 0
+# 	parent = "Services"
+
+[blackfriday]
+	smartypants	= true
+	angledQuotes = true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

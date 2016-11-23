@@ -1,0 +1,39 @@
+.project .logo img {
+    background: none;
+    border-radius: 0;
+    width: 120px;
+    height: 99px;
+}
+.drawer {
+    font-size: 14px;
+}
+.article {
+    font-size: 16px;
+}
+.article h1 {
+    font-size: 32px;
+}
+.article h2 {
+    font-size: 24px;
+}
+.article h3, .article h4 {
+    font-size: 16px;
+}
+
+.palette-primary-red{background:#0f70b7}
+.palette-primary-red .footer,.palette-primary-red .header{background:#0f70b7}
+.palette-primary-red .drawer .toc a.current,.palette-primary-red .drawer .toc a:focus,.palette-primary-red .drawer .toc a:hover{color:#e30613}
+.palette-primary-red .drawer .anchor a{border-left:2px solid #e30613}.ios.standalone .palette-primary-red .article{background:-webkit-linear-gradient(top,#fff 50%,#e30613 0);background:linear-gradient(180deg,#fff 50%,#e30613 0)}
+.palette-primary-red .article a,.palette-primary-red .article code,.palette-primary-red .article h1,.palette-primary-red .article h2{color:#e30613}.palette-primary-red .article .headerlink{color:rgba(0,0,0,.26)}
+.palette-primary-red .article table th{background:#e30613}.palette-primary-red .results .meta{background:#e30613}
+
+.pagination .center {
+    color: hsla(0,0%,100%,.7);
+    margin: 1.5em 0;
+    position: relative;
+    float: left;
+    height: 100%;
+}
+.palette-primary-red .article .copyright a{
+    color: rgba(0,0,0,.54)
+}
